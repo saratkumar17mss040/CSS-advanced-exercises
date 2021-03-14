@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="UTF-8" />
+		<meta http-equiv="X-UA-Compatible" content="IE=edge" />
+		<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+		<title>Documentation page</title>
+		<style>
+			.grid-container {
+				display: grid;
+				grid-template-areas:
+					'nav nav nav'
+					'aside main main'
+					'aside main main'
+					'footer footer footer';
+			}
+
+			.grid-container > * {
+				border: 2px solid black;
+				padding: 1rem;
+			}
+
+			.nav {
+				grid-area: nav;
+			}
+
+			.aside {
+				grid-area: aside;
+			}
+
+			.main {
+				grid-area: main;
+			}
+
+			.footer {
+				grid-area: footer;
+			}
+
+			ul {
+				text-align: center;
+				margin: 0 auto;
+			}
+
+			@media screen and (max-width: 769px) {
+				.grid-container {
+					display: grid;
+					grid-template-areas:
+						'nav nav nav'
+						'aside aside aside'
+						'main main main'
+						'footer footer footer';
+				}
+			}
+		</style>
+	</head>
+	<body>
+		<div class="grid-container">
+			<nav class="nav">
+				<strong>lorem</strong>Lorem ipsum dolor sit amet consectetur adipisicing
+				elit.
+			</nav>
+			<aside class="aside">
+				<ul>
+					<li>componentname</li>
+					<li>componentname</li>
+					<li>componentname</li>
+				</ul>
+			</aside>
+			<main class="main">
+				<h1>Intro</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+					sequi consectetur esse excepturi at architecto ab necessitatibus
+					dignissimos non, ex fuga autem aspernatur rem minus debitis sunt
+					eveniet hic voluptates!
+				</p>
+				<h1>Intro</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+					sequi consectetur esse excepturi at architecto ab necessitatibus
+					dignissimos non, ex fuga autem aspernatur rem minus debitis sunt
+					eveniet hic voluptates!
+				</p>
+				<h1>Intro</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+					sequi consectetur esse excepturi at architecto ab necessitatibus
+					dignissimos non, ex fuga autem aspernatur rem minus debitis sunt
+					eveniet hic voluptates!
+				</p>
+				<h1>Intro</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+					sequi consectetur esse excepturi at architecto ab necessitatibus
+					dignissimos non, ex fuga autem aspernatur rem minus debitis sunt
+					eveniet hic voluptates!
+				</p>
+				<h1>Intro</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+					sequi consectetur esse excepturi at architecto ab necessitatibus
+					dignissimos non, ex fuga autem aspernatur rem minus debitis sunt
+					eveniet hic voluptates!
+				</p>
+				<h1>Intro</h1>
+				<p>
+					Lorem ipsum dolor sit amet consectetur adipisicing elit. Cupiditate
+					sequi consectetur esse excepturi at architecto ab necessitatibus
+					dignissimos non, ex fuga autem aspernatur rem minus debitis sunt
+					eveniet hic voluptates!
+				</p>
+			</main>
+			<footer class="footer">
+				Lorem ipsum dolor sit amet consectetur adipisicing elit. Ut obcaecati
+				porro reprehenderit repudiandae soluta sapiente, omnis, assumenda autem
+				fugit nam earum eveniet ab itaque quae? Ipsa autem velit voluptatibus
+				saepe!
+			</footer>
+		</div>
+	</body>
+</html>
